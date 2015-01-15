@@ -1,0 +1,70 @@
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.title{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    padding-bottom: .5em
+
+}
+
+.jumbotron{
+    background-color: #000000
+}
+
+.boxes{
+    font-family: 'Oswald';
+    color: #FFFFFF;
+    font-size: 6em;
+    text-align: center;
+}
+
+.highlights{
+    background-color: #8CC63F;
+}
+
+.new{
+    background-color: #F19027;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.menu{
+    background-color: #505050;
+    font-family: 'Roboto'
+}
+
+.types{
+    background-color: #ab1a86;
+}
+
+.who{
+    background-color: #00b0da;
+}
+
+.first-row{
+    padding-bottom: .25em
+}
+
+.text-box{
+    font-family: 'Roboto';
+    text-align: center
+}
+
+/*p {
+
+}
+*/
+.line{
+    background-color: :red;
+}
+
+.home-page{
+    padding-bottom: .5em;
+    padding-top: .5em
+}
