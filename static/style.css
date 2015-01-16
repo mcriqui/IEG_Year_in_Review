@@ -56,15 +56,55 @@ a{
     text-align: center
 }
 
-/*p {
 
-}
-*/
 .line{
     background-color: :red;
+}
+
+.reception_img{
+    padding-top: 3em
 }
 
 .home-page{
     padding-bottom: .5em;
     padding-top: .5em
+}
+
+/*Team Template*/
+.dion{
+    border-radius: 2em;
+    background-color: #FDB813;
+
+}
+.description{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-family: 'Quattrocento';
+    font-size: 1.5em;
+}
+
+.cindy{
+    border-radius: 2em;
+    background-color: #00B0DA
+}
+
+.maureen{
+    border-radius: 2em;
+    background-color: #F04E37
+}
+
+.maggie{
+    border-radius: 2em;
+    background-color: #8CC63F
+}
+
+.sade{
+    border-radius: 2em;
+    background-color: #AB1A86
+
+}
+.sophia{
+    border-radius: 2em;
+    background-color: #00A6A0
 }
