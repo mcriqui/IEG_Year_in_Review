@@ -7,12 +7,12 @@ body{
     text-align: center;
     color: #FFFFFF;
     font-family: 'Oswald';
-    padding-bottom: .5em
 
 }
 
 .jumbotron{
-    background-color: #000000
+    background-color: #000000;
+    padding-bottom: 1em
 }
 
 .boxes{
@@ -72,8 +72,9 @@ a{
 
 /*Team Template*/
 .dion{
-    border-radius: 2em;
-    background-color: #FDB813;
+    border-radius: 1em;
+    border:solid .15em #F7F4DA;
+    padding: .5em;
 
 }
 .description{
@@ -85,26 +86,111 @@ a{
 }
 
 .cindy{
-    border-radius: 2em;
-    background-color: #00B0DA
+    border-radius: 1em;
+    border:solid .15em #F7F4DA;
+    padding: .5em;
 }
 
 .maureen{
-    border-radius: 2em;
-    background-color: #F04E37
+    border-radius: 1em;
+    border:solid .15em #F7F4DA;
+    padding: .5em;
 }
 
 .maggie{
-    border-radius: 2em;
-    background-color: #8CC63F
+    border-radius: 1em;
+    border:solid .15em #F7F4DA;
+    padding: .5em;
 }
 
 .sade{
-    border-radius: 2em;
-    background-color: #AB1A86
+    border-radius: 1em;
+    border:solid .15em #F7F4DA;
+    padding: .5em;
 
 }
 .sophia{
-    border-radius: 2em;
-    background-color: #00A6A0
+    border-radius: 1em;
+    border:solid .15em #F7F4DA;
+    padding: .5em;
+}
+
+.team_row{
+    padding-bottom: 2em
+}
+
+.maggie_picture{
+    /*border:solid .25em #8CC63F;*/
+    border:solid .25em #F7F4DA;
+}
+
+.dion_picture{
+    border:solid .25em #F7F4DA;
+}
+
+.cindy_picture{
+    border:solid .25em #F7F4DA;
+}
+
+.maureen_picture{
+    border:solid .25em #F7F4DA;
+}
+
+.sophia_picture{
+    border:solid .25em #F7F4DA;
+}
+
+.sade_picture{
+    border:solid .25em #F7F4DA;
+}
+
+
+
+/*Facility styling*/
+
+.facility_text{
+    font-family: 'Quattrocento';
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.facility_general{
+    font-family: 'Quattrocento';
+    font-size: 2em;
+    text-align: center
+}
+
+.forum_image{
+    border: solid 12px #00b0da;
+}
+
+.forum_description{
+    background-color: #00b0da;
+    font-size: .75em;
+    text-align: left
+}
+
+.test{
+    padding-top: 2em
+}
+
+.watson_description{
+    background-color: #8CC63F;
+    font-size: .75em;
+    text-align: left;
+}
+
+.watson_image{
+    border: solid 12px #8CC63F;
+}
+
+.demo_description{
+    background-color: #ab1a86;
+    font-size: .75em;
+    text-align: left;
+}
+
+.demo_image{
+    border: solid 12px #ab1a86;
 }
