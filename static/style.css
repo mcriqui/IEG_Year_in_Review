@@ -73,7 +73,7 @@ a{
 /*Team Template*/
 .dion{
     border-radius: 1em;
-    border:solid .15em #F7F4DA;
+    border:solid .15em #8CC63F;
     padding: .5em;
 
 }
@@ -87,31 +87,31 @@ a{
 
 .cindy{
     border-radius: 1em;
-    border:solid .15em #F7F4DA;
+    border:solid .15em #F19027;;
     padding: .5em;
 }
 
 .maureen{
     border-radius: 1em;
-    border:solid .15em #F7F4DA;
+    border:solid .15em #ab1a86;
     padding: .5em;
 }
 
 .maggie{
     border-radius: 1em;
-    border:solid .15em #F7F4DA;
+    border:solid .15em #00b0da;
     padding: .5em;
 }
 
 .sade{
     border-radius: 1em;
-    border:solid .15em #F7F4DA;
+    border:solid .15em #F04E37;
     padding: .5em;
 
 }
 .sophia{
     border-radius: 1em;
-    border:solid .15em #F7F4DA;
+    border:solid .15em #00A6A0;
     padding: .5em;
 }
 
@@ -121,27 +121,27 @@ a{
 
 .maggie_picture{
     /*border:solid .25em #8CC63F;*/
-    border:solid .25em #F7F4DA;
+    border:solid .25em #00b0da;
 }
 
 .dion_picture{
-    border:solid .25em #F7F4DA;
+    border:solid .25em #8CC63F
 }
 
 .cindy_picture{
-    border:solid .25em #F7F4DA;
+    border:solid .25em #F19027;;
 }
 
 .maureen_picture{
-    border:solid .25em #F7F4DA;
+    border:solid .25em #ab1a86;
 }
 
 .sophia_picture{
-    border:solid .25em #F7F4DA;
+    border:solid .25em #00A6A0;
 }
 
 .sade_picture{
-    border:solid .25em #F7F4DA;
+    border:solid .25em #F04E37;
 }
 
 
@@ -149,26 +149,30 @@ a{
 /*Facility styling*/
 
 .facility_text{
-    font-family: 'Quattrocento';
+    font-family: 'PT Sans';
     text-align: center;
     font-size: 2em;
     padding-bottom: 1em;
 }
 
 .facility_general{
-    font-family: 'Quattrocento';
+    font-family: 'PT Sans';
     font-size: 2em;
     text-align: center
 }
 
 .forum_image{
-    border: solid 12px #00b0da;
+    border: solid 8px #00b0da;
+    border-radius: 1em
 }
 
 .forum_description{
     background-color: #00b0da;
     font-size: .75em;
-    text-align: left
+    text-align: left;
+    border-radius: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .test{
@@ -179,18 +183,26 @@ a{
     background-color: #8CC63F;
     font-size: .75em;
     text-align: left;
+    border-radius: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .watson_image{
-    border: solid 12px #8CC63F;
+    border: solid 8px #8CC63F;
+    border-radius: 1em
 }
 
 .demo_description{
     background-color: #ab1a86;
     font-size: .75em;
     text-align: left;
+    border-radius: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .demo_image{
-    border: solid 12px #ab1a86;
+    border: solid 8px #ab1a86;
+    border-radius: 1em
 }
