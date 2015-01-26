@@ -12,7 +12,7 @@ body{
 
 .jumbotron{
     background-color: #000000;
-    padding-bottom: 1em
+    padding-bottom: .5em
 }
 
 .boxes{
@@ -87,7 +87,7 @@ a{
 
 .cindy{
     border-radius: 1em;
-    border:solid .15em #F19027;;
+    border:solid .15em #F19027;
     padding: .5em;
 }
 
@@ -206,3 +206,67 @@ a{
     border: solid 8px #ab1a86;
     border-radius: 1em
 }
+
+/*new page formatting*/
+
+.new-text{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'PT Sans';
+    font-size: 2em;
+    text-align: center
+}
+
+.new-row{
+    padding-top: 2em
+}
+
+.photo-wall{
+    border-radius: 1em;
+    border:solid .15em #ab1a86;
+    padding: .5em;
+}
+
+.advertising{
+    border-radius: 1em;
+    border:solid .15em #00b0da;
+    padding: .5em;
+}
+
+.watson-wall{
+    border-radius: 1em;
+    border:solid .15em #F19027;
+    padding: .5em;
+}
+
+.ipad-stands{
+    border-radius: 1em;
+    border:solid .15em #F04E37;
+    padding: .5em;
+}
+
+.high-res{
+    border-radius: 1em;
+    border:solid .15em #8CC63F;
+    padding: .5em;
+}
+
+.camss-demos{
+    border-radius: 1em;
+    border:solid .15em #00A6A0;
+    padding: .5em;
+}
+
+.new-text-padding{
+    padding-top: .5em;
+    padding-left: 3em;
+    padding-right: 3em
+}
+
+.new-headline{
+    padding-bottom: 4em;
+    text-align: center
+}
+
+
+
