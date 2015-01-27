@@ -3,19 +3,8 @@
 <head>
     <title>Highlights</title>
     {% include "header.html" %}
-</head>
-<body>
-    {% include "nav.html" %}
-    <div class="title">
-        <div class="jumbotron">
-            <h1>Hightlights</h1>
-            <hr width="30%">
-        </div>
-    </div>
 
-
-
-  <script>
+    <script>
     window.console = window.console || function(t) {};
     window.open = function(){ console.log('window.open is disabled.'); };
     window.print = function(){ console.log('window.print is disabled.'); };
@@ -23,11 +12,18 @@
     if (false) {
       window.ontouchstart = function(){};
     }
-  </script>
-
+    </script>
 </head>
 
 <body>
+    {% include "nav.html" %}
+
+    <div class="title">
+        <div class="jumbotron">
+            <h1>Hightlights</h1>
+            <hr width="30%">
+        </div>
+    </div>
     <div class="container">
         <h2 class="highlights-title">The IEG had 435 events in 2014. </h2>
         <h3 class="highlights-title">We regularly host Seminars, Briefings and Meetings for the following organizations:</h3>
@@ -36,191 +32,231 @@
     <div class="container highlights-regular">
         <div class="row">
             <div class="col-lg-4">
-                <h3 class="ASC">Analytics Solution Center</h3>
+                <div class="ASC">
+                    <h3>Federal Analytics Solution Center</h3>
+                    <a href="www.ibm.com/ascdc"><button type="button" class="btn asc-button">ASC Website</button></a>
+                </div>
             </div>
+
             <div class="col-lg-4">
-                <h3 class="FCIC">Federal Cloud Innovation Center</h3>
+                <div class="FCIC">
+                    <h3>Federal Cloud Innovation Center</h3>
+                    <a href="www.ibm.com/federal/fcic"><button type="button" class="btn fcic-button">FCIC Website</button></a>
+                </div>
             </div>
+
             <div class="col-lg-4">
-                <h3 class="CBG">Center for the Business of Government</h3>
+                <div class="CBG">
+                    <h3>Center for the Business of Government</h3>
+                    <a href="www.businessofgovernment.org"><button type="button" class="btn cbg-button">CBG Website</button></a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
+
+    <div class="container beginning-timeline">
         <h2 class="highlights-title">Here is a variety of events held at the IEG in 2014.</h2>
         <h4 class="highlights-title">For a full list of events, please visit the IEG's IBM-internal Connections page.</h4>
     </div>
-<div class="container">
-    <ul class="timeline">
-    <li><div class="tldate">Timeline</div></li>
+
+    <div class="container">
+        <ul class="timeline">
+            <li><div class="tldate">Timeline</div></li>
 
         <li>
-          <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Potomac Valley Kickoff</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 7</small></p>
+            <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i>
             </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Potomac Valley Kickoff</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 7</small></p>
+                        <img src="http://i.imgur.com/Q9HujPr.jpg" alt="Kickoff" class="img-responsive thumbnail center-block">
+                    </div>
+                </div>
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Smarter Cities Coundil</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>February 25-26</small></p>
+            <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i>
             </div>
-            <div class="timeline-body">
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Smart Cities Council</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>February 25-26</small></p>
+                    </div>
+                    <div class="timeline-body">
+                    </div>
+                </div>
         </li>
 
         <li>
-          <div class="timeline-badge pushpin"><i class="glyphicon glyphicon-pushpin"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">NACo</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 27</small></p>
+            <div class="timeline-badge pushpin"><i class="glyphicon glyphicon-pushpin"></i>
             </div>
-            <div class="timeline-body">
-                <p>National Organization of County Organizers</p>
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">NACo</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 27</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>National Organization of County Organizers</p>
+                    </div>
+                </div>
         </li>
 
         <li class="timeline-inverted">
-        <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mobile Roadshow</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> March 4</small></p>
+            <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i>
             </div>
-            <div class="timeline-body">
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">IBM Mobile Roadshow</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> March 4</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Driving Value from Mobile Applications</p>
+                        <img src="http://cdn.softlayer.com/innerlayer/IBMmobilefirst.png" class="img-responsive thumbnail center-block">
+                    </div>
+                </div>
         </li>
 
         <li>
-          <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">ASC and Carnegie Mellon Joint Symposium</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>March 20</small></p>
+            <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i>
             </div>
-            <div class="timeline-body">
-                <p>The Cutting Edge of Cyber Security: A Joint Symposium Sponsored by IBM's Analytics Solution Center and Carnegie Mellon University's Heinz College of Informatio Systems, Cylab, Software Engineering Institute CERT Divison</p>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">ASC and Carnegie Mellon Joint Symposium</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>March 20</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>The Cutting Edge of Cyber Security: A Joint Symposium Sponsored by IBM's Analytics Solution Center and Carnegie Mellon University's Heinz College of Informatio Systems, Cylab, Software Engineering Institute CERT Divison</p>
+                    </div>
+                </div>
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge pushpin"><i class="glyphicon glyphicon-pushpin"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">System Z Anniversary</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>April 8</small></p>
+            <div class="timeline-badge pushpin"><i class="glyphicon glyphicon-pushpin"></i>
             </div>
-            <div class="timeline-body">
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">System Z Anniversary</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>April 8</small></p>
+                        <img src="http://www-03.ibm.com/systems/resources/systemz_mainframe50-300x100.jpg" class="img-responsive thumbnail center-block">
+                    </div>
+                    <div class="timeline-body">
+                    </div>
+                </div>
         </li>
 
         <li>
-          <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">USTTI Cyber Security</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>April 24-25</small></p>
+            <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i>
             </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">USTTI Cyber Security</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>April 24-25</small></p>
+                        <p>This strategy level instruction, held for two days duration, helped students consider questions of policy and implementation related to cyber security in their environments. Topics covered included: Cyber Security Management: Policy, Practices and Standards, Network Security: Access Control and Intrusion Detection, Data Center Management, Virtual Private Networks, Next Generation Wireless (Cyber Security Landscape and Threat Environment), System and Application Security: Architectures, System Security, Operating System Security, Policy and Regulatory Considerations: Cyber Security, Cyber Safety, Cyber Ethics </p>
+                    </div>
+                </div>
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">NACo County Leadership Institute</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>June 2- June 6</small></p>
+            <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i>
             </div>
-            <div class="timeline-body">
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">NACo County Leadership Institute</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>June 2- June 6</small></p>
+                    </div>
+                    <div class="timeline-body">
+                    </div>
+                </div>
         </li>
 
          <li>
-          <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Universidad Pontificia Comillas</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 16</small></p>
+            <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i>
             </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Universidad Pontificia Comillas</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 16</small></p>
+                    </div>
+                </div>
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">USTTI eGovernment for Emerging Nations</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 31</small></p>
+            <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i>
             </div>
-            <div class="timeline-body">
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">USTTI eGovernment for Emerging Nations</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 31</small></p>
+                        <p>Students learned the practical understanding of innovative government services, creating an environment for effective peer to peer exchange of strategies and perspectives on government applications, practical understanding of the convergence of telecommunications and their implications for government and demonstration of best practices and technology being utilized by governments</p>
+                    </div>
+                    <div class="timeline-body">
+                    </div>
+                </div>
         </li>
 
         <li>
-          <div class="timeline-badge pushpin"><i class="glyphicon glyphicon-pushpin"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Africa Open Data Jam</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 8</small></p>
-            </div>
+          <div class="timeline-badge pushpin"><i class="glyphicon glyphicon-pushpin"></i>
           </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Africa Open Data Jam</h4>
+                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 8</small></p>
+                    <a href="http://www.meetup.com/Africa-Open-Data/events/195684502/" class="btn test" role="button">For more information</a>
+                </div>
+            </div>
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Cyber X Force</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 19</small></p>
+            <div class="timeline-badge calendar"><i class="glyphicon glyphicon-calendar"></i>
             </div>
-            <div class="timeline-body">
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Cybersecurity X Force Roadshow</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 19</small></p>
+                      <img src="http://www.ibmevents.co.uk/softwarepartnercollege/img/logos/ibm-smarter-security.png" class="img-responsive thumbnail center-block">
+                    </div>
+                    <div class="timeline-body">
+                    </div>
+                </div>
         </li>
 
          <li>
-          <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">USTTI Cyber Security</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>September 18-19</small></p>
+            <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i>
             </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">USTTI Cyber Security</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>September 18-19</small></p>
+                    </div>
+                </div>
         </li>
 
 
         <li class="timeline-inverted">
-          <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">USTTI Social Media in Government</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>October 24</small></p>
+            <div class="timeline-badge globe"><i class="glyphicon glyphicon-globe"></i>
             </div>
-            <div class="timeline-body">
-            </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">USTTI Social Media in Government</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>October 24</small></p>
+                      <p>This one day seminar discussed the important topics in social media for the public sector. Participants gained a better understanding of what constitutes social media, how governments around the world are using it to improve citizen services and how they can begin their own social media journey within their organization.</p>
+                    </div>
+                    <div class="timeline-body">
+                    </div>
+                </div>
         </li>
 
         <li>
-          <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Potomac Valley Bluemix</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>November 12</small></p>
+            <div class="timeline-badge check"><i class="glyphicon glyphicon-check"></i>
             </div>
-          </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Potomac Valley Bluemix</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>November 12</small></p>
+                      <img src="http://i.imgur.com/64vKt1R.png?1" class="img-responsive thumbnail center-block">
+                    </div>
+                </div>
         </li>
 
 

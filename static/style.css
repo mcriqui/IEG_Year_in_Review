@@ -427,21 +427,21 @@ a{
 
 .highlights-regular{
     padding-top: 3em;
-    padding-bottom: 4em
+    padding-bottom: 4em;
 }
 
 .ASC{
     border: solid 8px #8CC63F;
     border-radius: 1em;
     padding: 1em;
-    text-align: center
+    text-align: center;
 }
 
 .FCIC{
     border: solid 8px #F19027;
     border-radius: 1em;
     padding: 1em;
-    text-align: center
+    text-align: center;
 }
 
 .CBG{
@@ -449,4 +449,26 @@ a{
     border-radius: 1em;
     padding: 1em;
     text-align: center
+}
+
+.asc-button{
+    background-color: #8CC63F;
+    font-weight: bold;
+}
+
+.fcic-button{
+    background-color: #F19027;
+    font-weight: bold;
+}
+
+.cbg-button{
+    background-color: #00b0da;
+    font-weight: bold
+}
+.beginning-timeline{
+    padding-bottom: 5em;
+}
+
+.test{
+    background-color: #000000
 }
