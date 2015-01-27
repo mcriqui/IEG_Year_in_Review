@@ -24,15 +24,20 @@ body{
 
 .highlights{
     background-color: #8CC63F;
+    border: solid 10px #FFFFFF
+
 }
 
 .new{
     background-color: #F19027;
+    border: solid 10px #FFFFFF
 }
 
 a{
     color: #FFFFFF;
 }
+
+
 
 .menu{
     background-color: #505050;
@@ -41,10 +46,13 @@ a{
 
 .types{
     background-color: #ab1a86;
+    border: solid 10px #FFFFFF
 }
 
 .who{
     background-color: #00b0da;
+    border: solid 10px #FFFFFF
+
 }
 
 .first-row{
@@ -265,8 +273,180 @@ a{
 
 .new-headline{
     padding-bottom: 4em;
+    text-align: center;
+    font-family: 'Roboto'
+}
+
+/*Highlights*/
+
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-badge.globe {
+  background-color: #00b0da !important;
+}
+
+.timeline-badge.calendar {
+  background-color: #8CC63F !important;
+}
+
+.timeline-badge.check {
+  background-color: #F19027 !important;
+}
+.timeline-badge.pushpin {
+  background-color: #ab1a86 !important;
+}
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+.tldate {
+  display: block;
+  width: 200px;
+  background: #414141;
+  border: 3px solid #212121;
+  color: #ededed;
+  margin: 0 auto;
+  padding: 3px 0;
+  font-weight: bold;
+  text-align: center;
+  -webkit-box-shadow: 0 0 11px rgba(0,0,0,0.35);
+}
+
+/*Highlights Template*/
+.highlights-title{
+    text-align: center;
+}
+
+.highlights-regular{
+    padding-top: 3em;
+    padding-bottom: 4em
+}
+
+.ASC{
+    border: solid 8px #8CC63F;
+    border-radius: 1em;
+    padding: 1em;
     text-align: center
 }
 
+.FCIC{
+    border: solid 8px #F19027;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center
+}
 
-
+.CBG{
+    border: solid 8px #00b0da ;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center
+}
