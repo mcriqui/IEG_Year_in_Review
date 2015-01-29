@@ -137,7 +137,7 @@ a{
 }
 
 .cindy_picture{
-    border:solid .25em #F19027;;
+    border:solid .25em #F19027;
 }
 
 .maureen_picture{
@@ -284,6 +284,7 @@ a{
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  font-family: 'Roboto'
 }
 .timeline:before {
   top: 0;
@@ -423,11 +424,13 @@ a{
 /*Highlights Template*/
 .highlights-title{
     text-align: center;
+    font-family: 'Roboto'
 }
 
 .highlights-regular{
     padding-top: 3em;
     padding-bottom: 4em;
+    font-family: 'Roboto'
 }
 
 .ASC{
@@ -467,8 +470,19 @@ a{
 }
 .beginning-timeline{
     padding-bottom: 5em;
+    font-family: 'Roboto'
 }
 
-.test{
-    background-color: #000000
+.highlights-body{
+    font-family: 'Oswald'
+}
+
+/*Graph Formatting*/
+.graph-titles{
+    font-family: 'Oswald';
+    text-align: center
+}
+
+.graphs{
+    padding-bottom: 5em
 }
