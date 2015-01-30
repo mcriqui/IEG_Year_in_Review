@@ -19,7 +19,7 @@
         },
         title: null,
         tooltip: {
-            pointFormat: '{point.drilldown} Total'
+            pointFormat: '{point.drilldown}'
         },
         plotOptions: {
             pie: {
@@ -41,22 +41,22 @@
                 {name: 'Asia Pacific',
                  y: 39.3,
                  color: '#F19027',
-                 drilldown: '22 Events'
+                 drilldown: '22 Events from Australia, China, India, Korea, New Zealand, Philippines, Singapore, Taiwan'
                 },
                 {name: 'Europe',
                  y: 35.7,
                  color: '#00b0da',
-                 drilldown: '20 Events'
+                 drilldown: '20 Events from Austria, Belgium, Croatia, Denmark, Iceland, Estonia, Germany, Israel, Italy, Moldova, Netherlands, Spain and Ukraine'
                 },
                 {name: 'MEA',
                  y: 5.4,
                  color: '#8CC63F',
-                 drilldown: '3 Events'
+                 drilldown: '3 Events from Angola, Iraq and Kenya'
                 },
                 {name: 'Latin America',
                  y: 8.9,
                  color: '#ab1a86',
-                 drilldown: '5 Events'
+                 drilldown: '5 Events from Brazil, Panama and Peru'
                 },
                 {name: 'Multiple Groups',
                  y: 10.7,
@@ -198,7 +198,41 @@
 </script>
 
 <script>
-    $(function(){
-      $('#world-map').vectorMap();
+$(function () {
+    $('#events_by_Q').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Events by Quarter'
+        },
+        xAxis: {
+             categories: ['Quarters']
+        },
+        yAxis: {
+            title: {
+                text: 'Fruit eaten'
+            }
+        },
+        series: [{
+            name: 'Q1',
+            data: [112],
+            color: '#ab1a86'
+        }, {
+            name: 'Q2',
+            data: [102,],
+            color: '#00A6A0'
+        }, {
+            name: 'Q3',
+            data:[97],
+            color: '#FDB813'
+        }, {
+            name: 'Q4',
+            data:[125],
+            color: '#8CC63F'
+
+        }]
     });
+});
 </script>
+

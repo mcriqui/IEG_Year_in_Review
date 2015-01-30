@@ -484,5 +484,16 @@ a{
 }
 
 .graphs{
-    padding-bottom: 5em
+    padding-bottom: 2em;
+    padding-top: 2em
+}
+.events-title{
+    text-align: center;
+    font-family: 'Oswald';
+    padding-bottom: 3em
+}
+
+.international-events-title{
+    text-align: center;
+    font-family: 'Oswald'
 }
