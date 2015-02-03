@@ -170,17 +170,17 @@ a{
 }
 
 .forum_image{
-    border: solid 8px #00b0da;
+    border: solid 3px #00b0da;
     border-radius: 1em
 }
 
 .forum_description{
-    background-color: #00b0da;
     font-size: .75em;
     text-align: left;
     border-radius: 1em;
     padding-top: .5em;
     padding-bottom: .5em;
+    border: solid 3px #00b0da;
 }
 
 .test{
@@ -188,30 +188,31 @@ a{
 }
 
 .watson_description{
-    background-color: #8CC63F;
     font-size: .75em;
     text-align: left;
     border-radius: 1em;
     padding-top: .5em;
     padding-bottom: .5em;
+    border: solid 3px #8CC63F;
+
 }
 
 .watson_image{
-    border: solid 8px #8CC63F;
+    border: solid 3px #8CC63F;
     border-radius: 1em
 }
 
 .demo_description{
-    background-color: #ab1a86;
     font-size: .75em;
     text-align: left;
     border-radius: 1em;
     padding-top: .5em;
     padding-bottom: .5em;
+    border: solid 3px #ab1a86;
 }
 
 .demo_image{
-    border: solid 8px #ab1a86;
+    border: solid 3px #ab1a86;
     border-radius: 1em
 }
 
@@ -496,4 +497,38 @@ a{
 .international-events-title{
     text-align: center;
     font-family: 'Oswald'
+}
+.attendee_number{
+    background-color: #FDB813;
+    padding:.5em;
+    border-radius: 1em;
+}
+
+.event_number{
+    background-color: #8CC63F;
+    padding:.5em;
+    border-radius: 1em;
+}
+
+/*footer*/
+
+
+#footer {
+
+background-color: #505050;
+font-family: 'Roboto'
+}
+
+.last-row{
+    padding-bottom: 1em
+}
+
+.contact{
+    text-transform: uppercase;
+    text-align: center
+}
+
+.footer-icon{
+    text-align: center
+
 }

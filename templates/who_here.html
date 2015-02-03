@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Who was here?</title>
+    <title>Types of Events</title>
     {% include "header.html" %}
+    {% include "attendees_charts.html" %}
 </head>
+
 <body>
     {% include "nav.html" %}
-    <h1>Who's Here</h1>
+    <div class="title">
+        <div class="jumbotron">
+            <h1>Attendees</h1>
+            <hr width='35%'>
+        </div>
+    </div>
 
+    <div class="container">
+        <h2 class="events-title">In 2014, the IEG had a total of <span class="attendee_number">5716</span> people attending events in the center.</h2>
+    </div>
+
+    <div class="container graphs">
+            <div class="row">
+                <h2 class="graph-titles">Breakdown of Attendees</h2>
+                    <div id="total-attendees" style="width:75%; height:400px;" class="center-block">
+                    </div>
+            </div>
+    </div>
+
+    <div class="container graphs">
+        <div class="row">
+            <h2 class="graph-titles">Attendees by Quarter</h2>
+            <div id="attendees_by_Q" style="width:75%; height:400px;" class="center-block">
+                    </div>
+            </div>
+    </div>
+
+
+    <div class="container graphs">
+        <div class="row">
+            <h2 class="graph-titles">Customer Satisfaction</h2>
+                <div id="customer_satisfaction" style="width:75%; height:400px;" class="center-block">
+                </div>
+        </div>
+    </div>
+{% include "footer.html" %}
 </body>
 </html>

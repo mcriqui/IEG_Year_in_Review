@@ -1,0 +1,138 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/maps/highmaps.js"></script>
+<script type="text/javascript" src="http://github.highcharts.com/75c66eb3/modules/map.src.js"></script>
+<script type="text/javascript" src="http://github.highcharts.com/75c66eb3/modules/data.src.js"></script>
+<link rel="stylesheet" href="jquery-jvectormap-2.0.1.css" type="text/css" media="screen"/>
+<script src="jquery.js"></script>
+<script src="jquery-jvectormap-2.0.1.min.js"></script>
+<script src="jquery-jvectormap-world-mill-en.js"></script>
+
+
+<script type="text/javascript">
+    $(function () {
+    $('#total-attendees').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: 1,//null,
+            plotShadow: false
+        },
+        title: null,
+        tooltip: {
+            pointFormat: '{point.drilldown}'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: '% of Events',
+            data:[
+                {name: 'Business Partner',
+                 y: 3.2,
+                 color: '#F19027',
+                 drilldown: '183 Attendees'
+                },
+                {name: 'IBM',
+                 y: 43,
+                 color: '#00b0da',
+                 drilldown: '2460 Attendees'
+                },
+                {name: 'Clients',
+                 y: 53.7,
+                 color: '#8CC63F',
+                 drilldown: '3073 Attendees'
+                },
+            ]
+        }]
+    });
+});
+</script>
+
+<script>
+$(function () {
+    $('#attendees_by_Q').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Events by Quarter'
+        },
+        xAxis: {
+             categories: ['Quarters']
+        },
+        yAxis: {
+            title: {
+                text: 'Attendees'
+            }
+        },
+        series: [{
+            name: 'Q1',
+            data: [1671],
+            color: '#ab1a86'
+        }, {
+            name: 'Q2',
+            data: [1274],
+            color: '#00B0DA'
+        }, {
+            name: 'Q3',
+            data:[1087],
+            color: '#FDB813'
+        }, {
+            name: 'Q4',
+            data:[1674],
+            color: '#8CC63F'
+
+        }]
+    });
+});
+</script>
+
+<script>
+$(function () {
+    $('#customer_satisfaction').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Customer Sastisfaction'
+        },
+        xAxis: {
+             categories: ['Quarters']
+        },
+        yAxis: {
+            title: {
+                text: 'Ranking out of 5'
+            }
+        },
+        series: [{
+            name: 'Business Objectives',
+            data: [4.78],
+            color: '#ab1a86'
+        }, {
+            name: 'Partner',
+            data: [4.83],
+            color: '#00B0DA'
+        }, {
+            name: 'Customer Satisfaction',
+            data:[4.81],
+            color: '#FDB813'
+        }, {
+            name: 'IEG Experience',
+            data:[4.94],
+            color: '#8CC63F'
+
+        }]
+    });
+});
+</script>
