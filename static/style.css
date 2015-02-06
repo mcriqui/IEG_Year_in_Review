@@ -157,7 +157,7 @@ a{
 /*Facility styling*/
 
 .facility_text{
-    font-family: 'PT Sans';
+    font-family: 'Oswald';
     text-align: center;
     font-size: 2em;
     padding-bottom: 1em;
@@ -516,7 +516,8 @@ a{
 #footer {
 
 background-color: #505050;
-font-family: 'Roboto'
+font-family: 'Roboto';
+text-align: center
 }
 
 .last-row{
@@ -525,10 +526,15 @@ font-family: 'Roboto'
 
 .contact{
     text-transform: uppercase;
-    text-align: center
+
 }
 
 .footer-icon{
     text-align: center
 
+}
+
+.footer-text{
+    text-indent: center;
+    /*border: 2px solid #000000;*/
 }
