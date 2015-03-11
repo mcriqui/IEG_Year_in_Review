@@ -502,6 +502,21 @@ a{
     text-align: center;
     font-family: 'Oswald'
 }
+.mapdescription{
+  text-align: center;
+  font-family: 'Roboto';
+  padding-top: 1em
+}
+
+.red{
+  color: #00A6A0;
+  font-weight: 10;
+}
+
+.blue{
+  color: #AB1A86;
+  font-weight: 100
+}
 .attendee_number{
     background-color: #FDB813;
     padding:.5em;
